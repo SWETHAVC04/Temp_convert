@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="css/styles.css">
+        <title>Temperature Converter</title>
+    <style>
+        body{
+            background-image: url('bg.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+         }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <center><h1>Temperature Converter</h1>
+            <h6>Enter a temperature and get the conversion in other two formats</h6>
+            <div id="parent">
+                <div class="temp">
+                    <h2>Celsius</h2>
+                    <input type="number" id="cinp" placeholder="Celsius" />
+
+                </div>
+
+                <div class="temp">
+                    <h2>Farenheit</h2>
+                    <input type="number" id="finp" placeholder="Farenheit" />
+                </div>
+
+                <div class="temp">
+                    <h2>Kelvin</h2>
+                    <input type="number" id="kinp" placeholder="Kelvin" />
+                </div>  
+            </div>      
+    <button id="convert">Convert</button>
+    <button id="reset">Reset</button>
+    </div>
+    <script src="js/code.js"></script>
+</center>
+</body>
+</html>
